@@ -59,7 +59,7 @@ class PartialTestModel extends AbstractModel
     /**
      * @inheritdoc
      */
-    public static function factory(/* ... */)
+    public static function factory()
     {
         throw new \RuntimeException("Not implemented");
     }

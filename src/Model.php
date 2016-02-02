@@ -35,10 +35,11 @@ interface Model
 
     /**
      * Create an instance of the model based on the given parameters.
-     * This helper function allows external classes to easily create model instances.
+     * This helper function allows external classes to easily create model instances.<br/>
+     * <b>Note:</b> This method does not specify any parameters as they may vary between models.
      * @return static
      */
-    public static function factory(/* ... */);
+    public static function factory();
 
     // end static methods
 
