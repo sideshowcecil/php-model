@@ -11,5 +11,8 @@ before_script:
   - composer install --no-interaction --prefer-source --dev
 
 script:
+  # phpunit
   - vendor/bin/phpunit
+  # phpcs
+  - vendor/bin/phpcs --standard=PSR2 ./src/ ./test/
 
