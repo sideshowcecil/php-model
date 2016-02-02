@@ -1,0 +1,30 @@
+{
+    "name": "sideshow_bob/model",
+    "description": "A PHP model interfaces",
+    "minimum-stability": "stable",
+    "license": "mit",
+    "authors": [
+        {
+            "name": "sideshow_bob",
+            "email": "bernd.rathmanner@gmail"
+        }
+    ],
+    "require": {
+        "php": ">=5.4",
+        "danielstjules/stringy": "^2.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^4.8",
+        "kbsali/redmine-api": "~1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "sideshow_bob\\Model\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "sideshow_bob\\Model\\": "test/"
+        }
+    }
+}
