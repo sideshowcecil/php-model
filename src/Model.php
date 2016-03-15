@@ -52,12 +52,14 @@ interface Model
     /**
      * Save the model record.
      * @return void
+     * @throws RecordPersistenceException
      */
     public function save();
 
     /**
      * Delete the model record.
      * @return void
+     * @throws RecordPersistenceException
      */
     public function delete();
 }
