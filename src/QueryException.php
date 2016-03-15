@@ -2,16 +2,9 @@
 namespace sideshow_bob\Model;
 
 /**
- * Class QueryException
+ * General query exception.
  * @package sideshow_bob\Model
  */
-class QueryException extends \Exception
+class QueryException extends ModelException
 {
-    /**
-     * @inheritdoc
-     */
-    public function __construct($message, \Exception $previous = null, $code = 0)
-    {
-        parent::__construct($message, $code, $previous);
-    }
 }
